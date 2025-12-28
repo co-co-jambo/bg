@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "yarn build",
+  "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
-  "installCommand": "yarn install",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "framework": null,
   "rewrites": [
     {
