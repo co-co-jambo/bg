@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist/public",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/api/trpc/:path*",
+      "destination": "/api/server"
+    },
+    {
+      "source": "/api/oauth/:path*",
+      "destination": "/api/server"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/api/server"
+    }
+  ]
+}
