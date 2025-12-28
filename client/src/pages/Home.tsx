@@ -233,7 +233,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-8 text-center">
             <div className="bg-card/80 p-8 border border-accent/20 rounded-xl hover:border-accent transition-colors">
               <Coins className="w-12 h-12 text-accent mx-auto mb-4" />
-              <h3 className="text-4xl font-black text-white mb-2">1,000,000,000,000</h3>
+              <h3 className="text-4xl font-black text-white mb-2">1T</h3>
               <p className="text-accent uppercase tracking-widest text-sm">Total Supply</p>
             </div>
             <div className="bg-card/80 p-8 border border-accent/20 rounded-xl hover:border-accent transition-colors">
