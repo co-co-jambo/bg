@@ -2,6 +2,7 @@
   "version": 2,
   "buildCommand": "yarn build",
   "outputDirectory": "dist/public",
+  "installCommand": "yarn install --ignore-engines",
   "framework": null,
   "rewrites": [
     {
