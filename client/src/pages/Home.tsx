@@ -22,7 +22,7 @@ import {
 export default function Home() {
   const [copied, setCopied] = useState(false);
   const [playButtonText, setPlayButtonText] = useState("Play Beta");
-  const contractAddress = "0x1234...5678";
+  const contractAddress = "CzbRzp4fBHrXe9GczYtaW1crUSsf6RbXqzRAMvRepump";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -87,7 +87,7 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <CyberButton glow onClick={() => window.open('#', '_blank')}>
+              <CyberButton glow onClick={() => window.open('https://pump.fun/coin/CzbRzp4fBHrXe9GczYtaW1crUSsf6RbXqzRAMvRepump', '_blank')}>
                 BUY $TBG
               </CyberButton>
               <div className="flex items-center gap-2 bg-black/50 border border-primary/30 p-1 pr-4 clip-path-slant cursor-pointer group" onClick={copyToClipboard}>
